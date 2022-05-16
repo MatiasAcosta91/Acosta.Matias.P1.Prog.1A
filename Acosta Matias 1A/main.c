@@ -66,7 +66,7 @@ int reemplazarCaracteres (char cadena[],char caracterUno,char caracterDos)
     int contador = 0;
     if (cadena != NULL)
     {
-        for (int i = 0; i <strlen(cadena)-1; i++)
+        for (int i = 0; i <strlen(cadena); i++)
         {
             if (cadena[i] == caracterUno)
             {
