@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1652705317 source:d:\facultad\primer año\primer cuatrimestre 2022\programacion uno\codeblock\practica parciales\acosta matias 1a\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
