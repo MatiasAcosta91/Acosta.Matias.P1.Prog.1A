@@ -27,6 +27,19 @@ int ordenarVacunas (eVacuna vacunas[],int tam);
 
 int main()
 {
+    char cadena[20];
+    int nro;
+    while (1)
+    {
+        printf("Ingrese cadena: ");
+        gets(cadena);
+        nro=reemplazarCaracteres(cadena,'a','b');
+        printf("%s\n",cadena);
+        printf("%d\n",nro);
+
+    }
+
+
     eVacuna vacunas[TAM]=
     {
         {1000,"pfizer",'a',90.4},
@@ -49,6 +62,9 @@ int main()
     }
 
     return 0;
+
+
+
 }
 
 
